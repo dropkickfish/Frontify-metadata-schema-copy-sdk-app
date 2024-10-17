@@ -1,0 +1,18 @@
+{
+    "appId": "YOURAPPID",
+    "appType": "platform-app",
+    "name": "metadata-schema-copy",
+    "metadata": {
+        "version": 1
+    },
+    "permissions": {
+        "scopes": ["basic:read", "basic:write"]
+    },
+    "surfaces": {
+        "mediaLibrary": {
+            "assetCreation": {
+                "title": "Asset Creation"
+            }
+        }
+    }
+}

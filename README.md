@@ -1,43 +1,16 @@
-# Hello World
-This is a simple example of a Hello World app using React and Tailwind.
+# Frontify Metadata Schema Copy App
+An example Frontify SDK app that can be used to copy metadata fields and options from a source library to the current library
 
-## Information
+This App was made in a weekend, scaffolded using v0.dev and ShadCN components. There are many ways that this could be optimised and is honestly a messy codebase, and is to be considered a proof of concept only.
 
-This sample app is the most basic example to get you started with our platform. Even though it's simple, it comes pre-configured with our platform fonts, design system components, and styles. This ensures that you have a consistent look and feel across the application, adhering to our design standards right from the start.
+### Disclaimer:
+- This project is not an official Frontify product and is not affiliated with Frontify in any way
 
-- **Platform Fonts:** The app is set up to use our standard fonts, ensuring typography consistency.
-- **Design System Components and Styles:** The app includes [Fondue](https://fondue-components.frontify.com/), Frontify design system, making it easy to build complex UIs with a unified design language.
+- This project includes zero test coverage
 
-For more details on how to customize and extend this app, please refer to the [documentation](https://developer.frontify.com/).
+- The code in this repository is provided "as is", with all faults. There are no warranties or gaurantees, expressed or implied. 
 
-### Requirements:
+- The quality and maintenance of this repository is not guaranteed and should be used for inspiration only and a way to get started quickly
 
--   Node 20
--   Access to a Frontify Instance.
-
-### Setup
-1. Install the dependencies
-    ```
-    npm install
-    ```
-   Or
-    ```
-    pnpm install
-    ```
-2. Serve the app
-    ```
-    npm run serve
-    ```
-   Or
-    ```
-    pnpm serve
-    ```
-3. Go to your Frontify Instance
-
-## Manifest Configuration
-
-The `manifest.json` file is a crucial part of your app setup. It allows your app to control where it surfaces within the platform. Your app can appear in various locations such as the asset creation menu or the asset action menu.
-
-Additionally, the `manifest.json` file enables you to specify the types of files your app can work with, such as images, audio files, specific formats like jpg, png, and more.
-
-For detailed information on configuring the `manifest.json` file, please refer to our [documentation](https://developer.frontify.com/).
+### Installation:
+Replace the App ID in the manifest.json file with your own and follow the steps to deploy privately in the [Frontify API Documentation](https://developer.frontify.com/document/2580#/getting-started/marketplace) using the ```npx @frontify/frontify-cli@latest deploy --noVerify``` command to skip linting.
