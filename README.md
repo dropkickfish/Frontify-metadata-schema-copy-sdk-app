@@ -10,7 +10,7 @@ This App was made in a weekend, scaffolded using v0.dev and ShadCN components. T
 
 - The code in this repository is provided "as is", with all faults. There are no warranties or gaurantees, expressed or implied. 
 
-- The quality and maintenance of this repository is not guaranteed and should be used for inspiration only and a way to get started quickly
+- The quality and maintenance of this repository is not guaranteed and should be used for inspiration only
 
 ### Installation:
 Replace the App ID in the manifest.json file with your own and follow the steps to deploy privately in the [Frontify API Documentation](https://developer.frontify.com/document/2580#/getting-started/marketplace) using the ```npx @frontify/frontify-cli@latest deploy --noVerify``` command to skip linting.
