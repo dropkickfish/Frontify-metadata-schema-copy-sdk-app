@@ -6,10 +6,28 @@
         "version": 1
     },
     "permissions": {
-        "scopes": ["basic:read", "basic:write"]
+        "scopes": [
+            "basic:read",
+            "basic:write"
+        ]
     },
     "surfaces": {
         "mediaLibrary": {
+            "assetCreation": {
+                "title": "Asset Creation"
+            }
+        },
+        "iconLibrary": {
+            "assetCreation": {
+                "title": "Asset Creation"
+            }
+        },
+        "logoLibrary": {
+            "assetCreation": {
+                "title": "Asset Creation"
+            }
+        },
+        "documentLibrary": {
             "assetCreation": {
                 "title": "Asset Creation"
             }
